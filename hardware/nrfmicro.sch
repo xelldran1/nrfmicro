@@ -190,26 +190,18 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5A2ACF99
-P 7850 800
-F 0 "J2" H 7850 900 50  0000 C CNN
-F 1 "01x02" H 7850 600 50  0000 C CNN
-F 2 "pins:Pins2" H 7850 800 50  0001 C CNN
-F 3 "" H 7850 800 50  0001 C CNN
-	1    7850 800 
-	0    -1   -1   0   
+P 7725 2800
+F 0 "J2" H 7725 2900 50  0000 C CNN
+F 1 "01x02" H 7725 2600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7725 2800 50  0001 C CNN
+F 3 "" H 7725 2800 50  0001 C CNN
+	1    7725 2800
+	1    0    0    -1  
 $EndComp
-Text Label 7850 1100 3    60   ~ 0
-D+
-Text Label 7950 1100 3    60   ~ 0
-D-
 Wire Wire Line
 	10175 2125 10675 2125
 Wire Wire Line
 	10275 2025 10675 2025
-Wire Wire Line
-	7950 1000 7950 1100
-Wire Wire Line
-	7850 1000 7850 1100
 Wire Wire Line
 	9175 3825 9175 3925
 Wire Wire Line
@@ -1054,31 +1046,10 @@ F 3 "~" H 8725 2950 50  0001 C CNN
 	1    8725 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8325 3050 8525 3050
-Wire Wire Line
-	8325 2850 8525 2850
-Wire Wire Line
-	8325 2750 8525 2750
-Text GLabel 8325 2750 0    50   Input ~ 0
-TXD
-Text GLabel 8325 3050 0    50   Input ~ 0
+Text GLabel 7525 2800 0    50   Input ~ 0
 SWDCLK
-Text GLabel 8425 3150 0    50   Input ~ 0
+Text GLabel 7525 2900 0    50   Input ~ 0
 SWDIO
-$Comp
-L power:VCC #PWR0119
-U 1 1 5D91C0B5
-P 8325 2850
-F 0 "#PWR0119" H 8325 2700 50  0001 C CNN
-F 1 "VCC" V 8342 2978 50  0000 L CNN
-F 2 "" H 8325 2850 50  0001 C CNN
-F 3 "" H 8325 2850 50  0001 C CNN
-	1    8325 2850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8425 3150 8525 3150
 $Comp
 L MCU_Nordic:nRF52840 U1
 U 1 1 5D91BF7E
@@ -1089,18 +1060,5 @@ F 2 "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm" H 2250 616 60  0000 C CNN
 F 3 "" H 2250 3725 60  0000 C CNN
 	1    2250 3725
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 2950 8525 2950
-$Comp
-L power:GND #PWR0118
-U 1 1 5D91C0AF
-P 8325 2950
-F 0 "#PWR0118" H 8325 2700 50  0001 C CNN
-F 1 "GND" V 8330 2822 50  0000 R CNN
-F 2 "" H 8325 2950 50  0001 C CNN
-F 3 "" H 8325 2950 50  0001 C CNN
-	1    8325 2950
-	0    1    1    0   
 $EndComp
 $EndSCHEMATC
