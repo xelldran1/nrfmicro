@@ -250,17 +250,6 @@ F 3 "~" H 1125 1925 50  0001 C CNN
 	1    1125 1925
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Antenna_Shield AE1
-U 1 1 5D91C041
-P 7850 2375
-F 0 "AE1" H 7990 2416 50  0000 L CNN
-F 1 "Antenna_Shield" H 7990 2325 50  0000 L CNN
-F 2 "RF_Antenna:Coilcraft_MA5532-AE_RFID" H 7850 2475 50  0001 C CNN
-F 3 "~" H 7850 2475 50  0001 C CNN
-	1    7850 2375
-	1    0    0    -1  
-$EndComp
 Text GLabel 9100 3675 0    50   Input ~ 0
 SWDCLK
 Text GLabel 9100 3775 0    50   Input ~ 0
@@ -958,17 +947,6 @@ Wire Wire Line
 	7450 2575 7850 2575
 Connection ~ 7450 2575
 $Comp
-L power:GND #PWR0120
-U 1 1 5F605E08
-P 7950 2575
-F 0 "#PWR0120" H 7950 2325 50  0001 C CNN
-F 1 "GND" H 7955 2402 50  0000 C CNN
-F 2 "" H 7950 2575 50  0001 C CNN
-F 3 "" H 7950 2575 50  0001 C CNN
-	1    7950 2575
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5F67C901
 P 4375 4975
@@ -1503,4 +1481,6 @@ Wire Wire Line
 Connection ~ 6125 5350
 Wire Wire Line
 	6125 5350 6275 5350
+Text GLabel 7850 2575 2    60   Input ~ 0
+ANT
 $EndSCHEMATC
