@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "revC-gerber"))
+      (outputdirectory "GerberOutput/"))
   )
 
   (net 0 "")
@@ -2854,13 +2854,14 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E59F1CD) (hatch edge 0.508)
     (connect_pads (clearance 0.16))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 15.922 17.149) (xy 33.702 17.149) (xy 33.702 45.724) (xy 15.922 45.724)
+        (xy 15.922 17.149) (xy 20.367 17.149) (xy 20.367 23.753) (xy 29.257 23.753) (xy 29.257 17.149)
+        (xy 33.702 17.149) (xy 33.702 45.724) (xy 15.922 45.724)
       )
     )
     (filled_polygon
@@ -3331,13 +3332,14 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5E59F1CA) (hatch edge 0.508)
     (connect_pads (clearance 0.16))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 15.922 17.149) (xy 33.702 17.149) (xy 33.702 45.851) (xy 15.922 45.851)
+        (xy 15.922 17.149) (xy 20.367 17.149) (xy 20.367 23.753) (xy 29.257 23.753) (xy 29.257 17.149)
+        (xy 33.702 17.149) (xy 33.702 45.851) (xy 15.922 45.851)
       )
     )
     (filled_polygon
@@ -3788,11 +3790,6 @@
     )
     (filled_polygon
       (pts
-        (xy 29.880108 24.2511) (xy 29.841788 24.2511) (xy 29.853472 24.22924)
-      )
-    )
-    (filled_polygon
-      (pts
         (xy 31.424404 21.497571) (xy 31.548835 21.683795) (xy 31.707205 21.842165) (xy 31.893429 21.966596) (xy 32.100349 22.052305)
         (xy 32.320015 22.096) (xy 32.543985 22.096) (xy 32.763651 22.052305) (xy 32.970571 21.966596) (xy 33.1506 21.846304)
         (xy 33.1506 22.611696) (xy 32.970571 22.491404) (xy 32.763651 22.405695) (xy 32.543985 22.362) (xy 32.320015 22.362)
@@ -3806,7 +3803,7 @@
     )
     (filled_polygon
       (pts
-        (xy 28.975 23.391) (xy 20.649 23.391) (xy 20.649 17.276) (xy 28.975001 17.276)
+        (xy 29.880108 24.2511) (xy 29.841788 24.2511) (xy 29.853472 24.22924)
       )
     )
     (filled_polygon
