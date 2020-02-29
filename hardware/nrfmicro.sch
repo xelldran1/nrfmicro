@@ -1530,4 +1530,37 @@ D+
 Wire Wire Line
 	2900 4625 3000 4625
 Connection ~ 3000 4625
+$Comp
+L Graphic:Logo_Open_Hardware_Small T1
+U 1 1 5E5B0D44
+P 7750 975
+F 0 "T1" H 7750 1361 50  0000 C CNN
+F 1 "Tooling Hole" H 7750 1270 50  0000 C CNN
+F 2 "nrfmicro:tooling_holes" H 7750 975 50  0001 C CNN
+F 3 "~" H 7750 975 50  0001 C CNN
+	1    7750 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small T3
+U 1 1 5E5FBDE2
+P 8300 975
+F 0 "T3" H 8300 1361 50  0000 C CNN
+F 1 "Tooling Hole" H 8300 1270 50  0000 C CNN
+F 2 "nrfmicro:tooling_holes" H 8300 975 50  0001 C CNN
+F 3 "~" H 8300 975 50  0001 C CNN
+	1    8300 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small T2
+U 1 1 5E607267
+P 7750 1625
+F 0 "T2" H 7750 2011 50  0000 C CNN
+F 1 "Tooling Hole" H 7750 1920 50  0000 C CNN
+F 2 "nrfmicro:tooling_holes" H 7750 1625 50  0001 C CNN
+F 3 "~" H 7750 1625 50  0001 C CNN
+	1    7750 1625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
