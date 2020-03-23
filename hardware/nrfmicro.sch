@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:nrfmicro-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -67,19 +66,6 @@ Text Label 9600 5375 0    60   ~ 0
 PB4
 Text Label 9600 5475 0    60   ~ 0
 PB5
-$Comp
-L power:VCC #PWR013
-U 1 1 5A293402
-P 10400 4675
-F 0 "#PWR013" H 10400 4525 50  0001 C CNN
-F 1 "VCC" H 10400 4825 50  0000 C CNN
-F 2 "" H 10400 4675 50  0001 C CNN
-F 3 "" H 10400 4675 50  0001 C CNN
-	1    10400 4675
-	0    -1   -1   0   
-$EndComp
-Text Label 10600 4575 2    60   ~ 0
-RESET
 Text Label 10600 4775 2    60   ~ 0
 PF4
 Text Label 10600 4875 2    60   ~ 0
@@ -1563,4 +1549,8 @@ F 3 "~" H 7750 1625 50  0001 C CNN
 	1    7750 1625
 	1    0    0    -1  
 $EndComp
+Text GLabel 10400 4675 0    60   Input ~ 0
+VDD_HV
+Text Label 10600 4575 2    60   ~ 0
+RESET
 $EndSCHEMATC
