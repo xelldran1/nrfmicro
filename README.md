@@ -1,6 +1,6 @@
 # nrfmicro
 
-Midmount version
+This is an experimental (untested) devel branch
 
 ## Pictures
 
